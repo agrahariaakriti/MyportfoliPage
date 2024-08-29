@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+<!-- Font embedded code -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:ital,opsz,wght@1,6..96,900&family=Cedarville+Cursive&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Matemasie&display=swap" rel="stylesheet">
+<!-- Font embedded code -->
+<!-- Second font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&family=Bodoni+Moda+SC:ital,opsz,wght@1,6..96,900&family=Bungee+Tint&family=Cedarville+Cursive&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Lobster&family=Matemasie&display=swap" rel="stylesheet">
+<!-- second font -->
+<!-- Font Awsome --><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />  
+
+
+<!-- font awsome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Font awsome -->
+
+<!-- google font -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+
+  <link rel="stylesheet" href="potfolio.css">
+</head>
+<body>
+<!-- Section 1 -->
+  
+<nav id="nav-bar">
+  <div id="name"><h1>A.A...</h1></div>
+  <div id="links-section">
+  <div class="text"><a href="#section1" class="link">HOME</a></div>
+  <div class="text"><a href="#section2" class="link">SKILLS</a></div>
+  <div class="text"><a href="#section3" class="link">EDUCATION</a></div>
+  <div class="text"><a href="#section4" class="link">RESUME & CONTACT</a></div>
+</div>
+</nav>
+<div id="section1">
+<div id="about-img">
+  <div id="about"><h1 id="h1">I'm <span id="dynamic-span">HELLO</span> <br><br>....I'm a web developer. I enjoy building interactive and visually appealing web pages. I'm always eager to learn new technologies and improve my skills.</h1></div>
+  <div id="image"></div>
+</div>
+</div>
+
+<!-- section 2 -->
+<div id="section2">
+ <div id="button-container">
+  <button  id="skills-btn" onclick="mySkill();
+    ">CLICK</button></div>
+  <div class="Skill-block"></div>
+</div>
+
+<!-- Section 3 -->
+<div id="section3">
+<div id="Education">
+  <div id="study-btn">
+  <button class ="study"id="Btech" onclick="btech()">BTech</button>
+  <button class ="study"id="12th"  onclick="HighSchool()">10TH</button>
+  <button class ="study"id="10th " onclick="Intermidiate()">12TH</button>
+</div>
+  <div id="content">Hello am pursuing my btech from united college of engineering and research prayaraj Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae quasi laborum perspiciatis aperiam esse, eveniet quae amet sint eum quis quod, commodi officiis ut tenetur repellat natus voluptatum culpa tempore!";
+  </div>
+  </div>
+</div>
+
+<!-- Section 4 -->
+ <div id="section4">
+  <div class="Contact-part">
+      <div id="phone-case">
+      <span id="camera"></span>
+  <div id="heading-contact"><h1>Contact Me...</h1>
+  </div>
+    <div id="phone-contact">
+      <a href="tel:+91-9792705423" id="call-id" >
+        <span id="call-icon"><i class="fa-sharp fa-solid fa-square-phone"></i>
+        </span>
+        <span>9792705423</span>
+      </a>
+    </div>
+ 
+    <div  id="online-contact">
+    <!-- Intagram -->
+    <a href="http://www.instagram.com/aakriti_agrahari1" class="contact" id="Inta">
+      <i class="fa-brands fa-instagram"></i>
+    </a>
+
+    <!-- linkedIn -->
+    <a href="https://www.linkedin.com/in/aakriti-agrahari" class="contact" id="linkedin"><i class="fa-brands fa-linkedin"></i></a>
+   
+    <!-- email -->
+   
+    <a href="mailto:aakritiagrahari1@gmail.com" class="contact" id="email">
+      <i class="fa-regular fa-envelope"></i></a>
+
+   <!--gitHub -->
+    <a href="http://www.github.com/aakritiagrahari" class="contact" id="github"><i class="fa-brands fa-github"></i></a>
+  </div>
+</div>
+
+
+<button id="phone-button" onclick="myContact()" ondblclick="myContact2()"></button>
+</div>
+  <div id="Resume-section" class="footer">
+    <button id="download-button"><a id="resume-reference" href="aakriti-resume1.pdf" download="aakriti-resume1.pdf"><span >Download resume </span><span> <i class="fa-solid fa-cloud-arrow-down"></i></span></a></button>
+     </div>
+
+ </div>
+
+
+<script src="potfolio.js"></script>
+</body>
+</html>
+
+
